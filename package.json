@@ -1,0 +1,24 @@
+{
+  "name": "curso_de_node_creacion_de_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
